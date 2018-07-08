@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32FEC78D20D74A62008D34BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC78C20D74A62008D34BD /* AppDelegate.swift */; };
+		32DCDA9F20E4537100C85C50 /* Alphanum_28x28.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 32DCDA9E20E4537000C85C50 /* Alphanum_28x28.mlmodel */; };
+		32DCDAA120E4545F00C85C50 /* AlertControllerUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DCDAA020E4545E00C85C50 /* AlertControllerUtils.swift */; };
+		32FEC71020E37E3E00793492 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC70F20E37E3E00793492 /* CameraViewController.swift */; };
 		32FEC78F20D74A62008D34BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC78E20D74A62008D34BD /* ViewController.swift */; };
-		32FEC79220D74A62008D34BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEC79020D74A62008D34BD /* Main.storyboard */; };
 		32FEC79420D74A63008D34BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FEC79320D74A63008D34BD /* Assets.xcassets */; };
-		32FEC79720D74A63008D34BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEC79520D74A63008D34BD /* LaunchScreen.storyboard */; };
 		32FEC7A220D74A63008D34BD /* ME2110LabgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7A120D74A63008D34BD /* ME2110LabgoTests.swift */; };
 		32FEC7AD20D74A63008D34BD /* ME2110LabgoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7AC20D74A63008D34BD /* ME2110LabgoUITests.swift */; };
+		32FEC7BF20E1643B008D34BD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32FEC7BE20E1643B008D34BD /* GoogleService-Info.plist */; };
+		32FEC7C120E1BD40008D34BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEC7C020E1BD40008D34BD /* Main.storyboard */; };
+		32FEC7C320E1BDBA008D34BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FEC7C220E1BDBA008D34BD /* LaunchScreen.storyboard */; };
+		32FEC7CD20E1BDFD008D34BD /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7C420E1BDFB008D34BD /* InitialViewController.swift */; };
+		32FEC7CE20E1BDFD008D34BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7C520E1BDFB008D34BD /* LoginViewController.swift */; };
+		32FEC7CF20E1BDFD008D34BD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7C620E1BDFB008D34BD /* SignUpViewController.swift */; };
+		32FEC7D020E1BDFD008D34BD /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7C720E1BDFB008D34BD /* RoundedWhiteButton.swift */; };
+		32FEC7D320E1BDFD008D34BD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7CA20E1BDFC008D34BD /* HomeViewController.swift */; };
+		32FEC7D420E1BDFD008D34BD /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7CB20E1BDFC008D34BD /* MenuViewController.swift */; };
+		32FEC7D520E1BDFD008D34BD /* HelperExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7CC20E1BDFC008D34BD /* HelperExtensions.swift */; };
+		32FEC7D720E1BEBC008D34BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC7D620E1BEBC008D34BD /* AppDelegate.swift */; };
+		57B096EA2482980AB019D4CC /* Pods_ME2110Labgo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310495884897BA634E4837F6 /* Pods_ME2110Labgo.framework */; };
+		BBACC10242273F61C35F0B41 /* Pods_ME2110LabgoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA57FF2161496E70C5061D7 /* Pods_ME2110LabgoTests.framework */; };
+		FD8A3678C3178004E66F6914 /* Pods_ME2110LabgoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA49CC74EF378CCEE3A0EF2B /* Pods_ME2110LabgoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1028E0A261B414716CF1138E /* Pods-ME2110LabgoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ME2110LabgoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ME2110LabgoTests/Pods-ME2110LabgoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		310495884897BA634E4837F6 /* Pods_ME2110Labgo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ME2110Labgo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C9BD9D20E4A420002491AF /* FirebaseAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32DCDA9E20E4537000C85C50 /* Alphanum_28x28.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Alphanum_28x28.mlmodel; sourceTree = "<group>"; };
+		32DCDAA020E4545E00C85C50 /* AlertControllerUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerUtils.swift; sourceTree = "<group>"; };
+		32FEC70F20E37E3E00793492 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		32FEC78920D74A62008D34BD /* ME2110Labgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ME2110Labgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		32FEC78C20D74A62008D34BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32FEC78E20D74A62008D34BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		32FEC79120D74A62008D34BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32FEC79320D74A63008D34BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		32FEC79620D74A63008D34BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32FEC79820D74A63008D34BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32FEC79D20D74A63008D34BD /* ME2110LabgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ME2110LabgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FEC7A120D74A63008D34BD /* ME2110LabgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ME2110LabgoTests.swift; sourceTree = "<group>"; };
@@ -47,6 +64,24 @@
 		32FEC7A820D74A63008D34BD /* ME2110LabgoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ME2110LabgoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FEC7AC20D74A63008D34BD /* ME2110LabgoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ME2110LabgoUITests.swift; sourceTree = "<group>"; };
 		32FEC7AE20D74A63008D34BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FEC7BE20E1643B008D34BD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32FEC7C020E1BD40008D34BD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		32FEC7C220E1BDBA008D34BD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32FEC7C420E1BDFB008D34BD /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		32FEC7C520E1BDFB008D34BD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		32FEC7C620E1BDFB008D34BD /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		32FEC7C720E1BDFB008D34BD /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
+		32FEC7CA20E1BDFC008D34BD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		32FEC7CB20E1BDFC008D34BD /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		32FEC7CC20E1BDFC008D34BD /* HelperExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperExtensions.swift; sourceTree = "<group>"; };
+		32FEC7D620E1BEBC008D34BD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../../Downloads/SwiftFirebaseTutorials-master 2/FirebaseApp-1-Email-Authentication-End/FirebaseApp/AppDelegate.swift"; sourceTree = "<group>"; };
+		374717E9CF1AD129EB2A2E2D /* Pods-ME2110Labgo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ME2110Labgo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ME2110Labgo/Pods-ME2110Labgo.debug.xcconfig"; sourceTree = "<group>"; };
+		4FC3739E30AEFEF6A446C603 /* Pods-ME2110LabgoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ME2110LabgoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ME2110LabgoUITests/Pods-ME2110LabgoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AE88A32190B4D387F8A8DC66 /* Pods-ME2110LabgoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ME2110LabgoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ME2110LabgoUITests/Pods-ME2110LabgoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCA57FF2161496E70C5061D7 /* Pods_ME2110LabgoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ME2110LabgoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA49CC74EF378CCEE3A0EF2B /* Pods_ME2110LabgoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ME2110LabgoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E45454B63EAD713BD8CC7EBF /* Pods-ME2110LabgoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ME2110LabgoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ME2110LabgoTests/Pods-ME2110LabgoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD31462CF9A038C93287718C /* Pods-ME2110Labgo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ME2110Labgo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ME2110Labgo/Pods-ME2110Labgo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57B096EA2482980AB019D4CC /* Pods_ME2110Labgo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBACC10242273F61C35F0B41 /* Pods_ME2110LabgoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8A3678C3178004E66F6914 /* Pods_ME2110LabgoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +119,8 @@
 				32FEC7A020D74A63008D34BD /* ME2110LabgoTests */,
 				32FEC7AB20D74A63008D34BD /* ME2110LabgoUITests */,
 				32FEC78A20D74A62008D34BD /* Products */,
+				383AEE4CB83A0583581B303B /* Pods */,
+				C89DE7DB2799DA879E830900 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,23 @@
 		32FEC78B20D74A62008D34BD /* ME2110Labgo */ = {
 			isa = PBXGroup;
 			children = (
-				32FEC78C20D74A62008D34BD /* AppDelegate.swift */,
+				32DCDA9E20E4537000C85C50 /* Alphanum_28x28.mlmodel */,
+				32FEC7D620E1BEBC008D34BD /* AppDelegate.swift */,
+				32DCDAA020E4545E00C85C50 /* AlertControllerUtils.swift */,
 				32FEC78E20D74A62008D34BD /* ViewController.swift */,
-				32FEC79020D74A62008D34BD /* Main.storyboard */,
+				32FEC7CC20E1BDFC008D34BD /* HelperExtensions.swift */,
+				32FEC7CA20E1BDFC008D34BD /* HomeViewController.swift */,
+				32FEC7C420E1BDFB008D34BD /* InitialViewController.swift */,
+				32FEC7C520E1BDFB008D34BD /* LoginViewController.swift */,
+				32FEC7CB20E1BDFC008D34BD /* MenuViewController.swift */,
+				32FEC7C720E1BDFB008D34BD /* RoundedWhiteButton.swift */,
+				32FEC7C620E1BDFB008D34BD /* SignUpViewController.swift */,
+				32FEC7BE20E1643B008D34BD /* GoogleService-Info.plist */,
+				32FEC7C220E1BDBA008D34BD /* LaunchScreen.storyboard */,
+				32FEC7C020E1BD40008D34BD /* Main.storyboard */,
 				32FEC79320D74A63008D34BD /* Assets.xcassets */,
-				32FEC79520D74A63008D34BD /* LaunchScreen.storyboard */,
 				32FEC79820D74A63008D34BD /* Info.plist */,
+				32FEC70F20E37E3E00793492 /* CameraViewController.swift */,
 			);
 			path = ME2110Labgo;
 			sourceTree = "<group>";
@@ -125,6 +176,30 @@
 			path = ME2110LabgoUITests;
 			sourceTree = "<group>";
 		};
+		383AEE4CB83A0583581B303B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				374717E9CF1AD129EB2A2E2D /* Pods-ME2110Labgo.debug.xcconfig */,
+				FD31462CF9A038C93287718C /* Pods-ME2110Labgo.release.xcconfig */,
+				1028E0A261B414716CF1138E /* Pods-ME2110LabgoTests.debug.xcconfig */,
+				E45454B63EAD713BD8CC7EBF /* Pods-ME2110LabgoTests.release.xcconfig */,
+				AE88A32190B4D387F8A8DC66 /* Pods-ME2110LabgoUITests.debug.xcconfig */,
+				4FC3739E30AEFEF6A446C603 /* Pods-ME2110LabgoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C89DE7DB2799DA879E830900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C9BD9D20E4A420002491AF /* FirebaseAuth.framework */,
+				BCA57FF2161496E70C5061D7 /* Pods_ME2110LabgoTests.framework */,
+				CA49CC74EF378CCEE3A0EF2B /* Pods_ME2110LabgoUITests.framework */,
+				310495884897BA634E4837F6 /* Pods_ME2110Labgo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FEC7B120D74A63008D34BD /* Build configuration list for PBXNativeTarget "ME2110Labgo" */;
 			buildPhases = (
+				D8E4BCAAF31B08EE401FF303 /* [CP] Check Pods Manifest.lock */,
 				32FEC78520D74A62008D34BD /* Sources */,
 				32FEC78620D74A62008D34BD /* Frameworks */,
 				32FEC78720D74A62008D34BD /* Resources */,
+				07581C7106981CD9C2B5F6D3 /* [CP] Embed Pods Frameworks */,
+				4FF9E102E9C5F6235A5F242C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FEC7B420D74A63008D34BD /* Build configuration list for PBXNativeTarget "ME2110LabgoTests" */;
 			buildPhases = (
+				BCE68822AEF266696B1B9159 /* [CP] Check Pods Manifest.lock */,
 				32FEC79920D74A63008D34BD /* Sources */,
 				32FEC79A20D74A63008D34BD /* Frameworks */,
 				32FEC79B20D74A63008D34BD /* Resources */,
@@ -167,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32FEC7B720D74A63008D34BD /* Build configuration list for PBXNativeTarget "ME2110LabgoUITests" */;
 			buildPhases = (
+				EABDCD3FEF8F7D9D37A371F6 /* [CP] Check Pods Manifest.lock */,
 				32FEC7A420D74A63008D34BD /* Sources */,
 				32FEC7A520D74A63008D34BD /* Frameworks */,
 				32FEC7A620D74A63008D34BD /* Resources */,
@@ -229,9 +309,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FEC79720D74A63008D34BD /* LaunchScreen.storyboard in Resources */,
+				32FEC7C120E1BD40008D34BD /* Main.storyboard in Resources */,
+				32FEC7C320E1BDBA008D34BD /* LaunchScreen.storyboard in Resources */,
+				32FEC7BF20E1643B008D34BD /* GoogleService-Info.plist in Resources */,
 				32FEC79420D74A63008D34BD /* Assets.xcassets in Resources */,
-				32FEC79220D74A62008D34BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +332,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07581C7106981CD9C2B5F6D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ME2110Labgo/Pods-ME2110Labgo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ME2110Labgo/Pods-ME2110Labgo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FF9E102E9C5F6235A5F242C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ME2110Labgo/Pods-ME2110Labgo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVFaceDetectorResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleMobileVision/GoogleMVTextDetectorResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVFaceDetectorResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMVTextDetectorResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ME2110Labgo/Pods-ME2110Labgo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE68822AEF266696B1B9159 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ME2110LabgoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E4BCAAF31B08EE401FF303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ME2110Labgo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EABDCD3FEF8F7D9D37A371F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ME2110LabgoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32FEC78520D74A62008D34BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32FEC7CE20E1BDFD008D34BD /* LoginViewController.swift in Sources */,
+				32FEC7CD20E1BDFD008D34BD /* InitialViewController.swift in Sources */,
 				32FEC78F20D74A62008D34BD /* ViewController.swift in Sources */,
-				32FEC78D20D74A62008D34BD /* AppDelegate.swift in Sources */,
+				32FEC7D720E1BEBC008D34BD /* AppDelegate.swift in Sources */,
+				32FEC71020E37E3E00793492 /* CameraViewController.swift in Sources */,
+				32FEC7D320E1BDFD008D34BD /* HomeViewController.swift in Sources */,
+				32FEC7D420E1BDFD008D34BD /* MenuViewController.swift in Sources */,
+				32DCDAA120E4545F00C85C50 /* AlertControllerUtils.swift in Sources */,
+				32FEC7D520E1BDFD008D34BD /* HelperExtensions.swift in Sources */,
+				32DCDA9F20E4537100C85C50 /* Alphanum_28x28.mlmodel in Sources */,
+				32FEC7CF20E1BDFD008D34BD /* SignUpViewController.swift in Sources */,
+				32FEC7D020E1BDFD008D34BD /* RoundedWhiteButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +485,6 @@
 			targetProxy = 32FEC7A920D74A63008D34BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		32FEC79020D74A62008D34BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32FEC79120D74A62008D34BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		32FEC79520D74A63008D34BD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				32FEC79620D74A63008D34BD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		32FEC7AF20D74A63008D34BD /* Debug */ = {
@@ -363,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -417,7 +592,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -428,40 +603,201 @@
 		};
 		32FEC7B220D74A63008D34BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374717E9CF1AD129EB2A2E2D /* Pods-ME2110Labgo.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZV4W46NJD;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ME2110Labgo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = muyang.ME2110Labgo;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"BarcodeDetector\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FaceDetector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMLCommon\"",
+					"-framework",
+					"\"FirebaseMLVision\"",
+					"-framework",
+					"\"FirebaseMLVisionBarcodeModel\"",
+					"-framework",
+					"\"FirebaseMLVisionFaceModel\"",
+					"-framework",
+					"\"FirebaseMLVisionLabelModel\"",
+					"-framework",
+					"\"FirebaseMLVisionTextModel\"",
+					"-framework",
+					"\"FirebaseNanoPB\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAPIClientForREST\"",
+					"-framework",
+					"\"GoogleMobileVision\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"LabelDetector\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TextDetector\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = muyang.ME2110LabgoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		32FEC7B320D74A63008D34BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD31462CF9A038C93287718C /* Pods-ME2110Labgo.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2ZV4W46NJD;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ME2110Labgo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = muyang.ME2110Labgo;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"BarcodeDetector\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FaceDetector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMLCommon\"",
+					"-framework",
+					"\"FirebaseMLVision\"",
+					"-framework",
+					"\"FirebaseMLVisionBarcodeModel\"",
+					"-framework",
+					"\"FirebaseMLVisionFaceModel\"",
+					"-framework",
+					"\"FirebaseMLVisionLabelModel\"",
+					"-framework",
+					"\"FirebaseMLVisionTextModel\"",
+					"-framework",
+					"\"FirebaseNanoPB\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAPIClientForREST\"",
+					"-framework",
+					"\"GoogleMobileVision\"",
+					"-framework",
+					"\"GoogleToolboxForMac\"",
+					"-framework",
+					"\"LabelDetector\"",
+					"-framework",
+					"\"LocalAuthentication\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TextDetector\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = muyang.ME2110LabgoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
 		32FEC7B520D74A63008D34BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1028E0A261B414716CF1138E /* Pods-ME2110LabgoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +818,7 @@
 		};
 		32FEC7B620D74A63008D34BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45454B63EAD713BD8CC7EBF /* Pods-ME2110LabgoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +839,7 @@
 		};
 		32FEC7B820D74A63008D34BD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE88A32190B4D387F8A8DC66 /* Pods-ME2110LabgoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +859,7 @@
 		};
 		32FEC7B920D74A63008D34BD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC3739E30AEFEF6A446C603 /* Pods-ME2110LabgoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
