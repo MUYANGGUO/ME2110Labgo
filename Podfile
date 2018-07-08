@@ -5,6 +5,12 @@ target 'ME2110Labgo' do
   pod 'Firebase'
   pod 'FirebaseAuth'
   pod 'Firebase/MLVision'
+  pod 'Firebase/MLVisionTextModel'  
+  pod 'Firebase/MLVisionBarcodeModel'
+  pod 'Firebase/MLVisionLabelModel'
+  pod 'Firebase/MLVisionFaceModel'
+  pod 'FirebaseMLCommon'
+
   use_frameworks!
 
   # Pods for ME2110Labgo
